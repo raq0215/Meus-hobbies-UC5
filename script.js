@@ -8,4 +8,7 @@ const hero = document.querySelector("h2");
 hero.addEventListener("mouseover", function () {
   hero.style.color = "#960018";
 });
-
+botaoSobre.addEventListener("click", function () {
+    sobre.scrollIntoView();
+});
+    
