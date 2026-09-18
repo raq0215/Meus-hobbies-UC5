@@ -12,3 +12,11 @@ botaoSobre.addEventListener("click", function () {
     sobre.scrollIntoView();
 });
     
+
+botaoSobre.addEventListener("click", function () {
+
+   titulo.textContent = "Conheça um pouco mais sobre mim!";
+
+    sobre.scrollIntoView();
+
+});
