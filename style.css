@@ -2,12 +2,7 @@
    ESTILOS DOS ELEMENTOS
    ======================================== */
 
-.arima-<uniquifier> {
-  font-family: "Lora", system-ui;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-}
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@400;500;600;700&display=swap');
 
 * {
     box-sizing: border-box;
@@ -23,7 +18,7 @@ body {
 h1 {
     color: #2c1e14; /* marrom escuro, tipo tinta de livro antigo */
     font-size: 40px;
-    text-align: auto;
+    text-align: center;
     letter-spacing: 1px;
 }
 
@@ -32,10 +27,12 @@ h2 {
     border-bottom: 2px solid #a1785b;
     padding-bottom: 8px;
     display: inline-block;
+    font-size: 30px;
 }
 
 p {
     color: #3d2f22;
+    font-size: 30px;
 }
 
 a {
@@ -52,6 +49,7 @@ a:hover {
     color: #2c1e14;
     font-weight: bold;
     font-style: italic;
+    font-size: 30px;
 }
 
 .link-social {
@@ -66,9 +64,7 @@ a:hover {
     display: flex;
     flex-direction: column;
 }
-#hero h1,
-#hero .cargo {
-}
+
 
 #hero img {
     
@@ -107,6 +103,7 @@ nav {
 
 nav a {
     font-weight: bold;
+    font-size: 30px;
 }
 
 .projetos-grid {
@@ -121,6 +118,7 @@ nav a {
     box-shadow: 0 2px 8px rgba(61, 40, 26, 0.15);
     padding: 20px;
     border-radius: 3px;
+    font-size: 30px;
 }
 
 @media (min-width: 768px) {
@@ -164,10 +162,3 @@ nav a {
     flex-shrink: 1; /* impede a imagem de encolher */
 }
 
-botaoSobre.addEventListener("click", function () {
-
-   titulo.textContent = "Conheça um pouco mais sobre mim!";
-
-    sobre.scrollIntoView();
-
-});
