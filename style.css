@@ -158,7 +158,7 @@ nav a {
 .texto-imagem img {
     width: 400px;
     height: 300px;
-    object-fit: cover;
+    object-fit: contain; /* mantém a proporção da imagem */
     flex-shrink: 1; /* impede a imagem de encolher */
 }
 
